@@ -1,5 +1,5 @@
 export default {
-  name: 'beta-builds',
+  name: 'the-navbar',
   components: {}, 
   props: [],
   data () {

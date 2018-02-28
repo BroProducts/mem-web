@@ -1,5 +1,5 @@
 export default {
-  name: 'home',
+  name: 'page-release-builds',
   components: {}, 
   props: [],
   data () {

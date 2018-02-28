@@ -1,5 +1,5 @@
 export default {
-  name: 'navbar',
+  name: 'page-home',
   components: {}, 
   props: [],
   data () {

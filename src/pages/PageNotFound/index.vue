@@ -1,3 +1,3 @@
-<template src="./PageNotFound.page.html"></template>
-<script src="./PageNotFound.page.js"></script>
-<style src="./PageNotFound.page.css" scoped lang="css"></style>
+<template src="./PageNotFound.component.html"></template>
+<script src="./PageNotFound.component.js"></script>
+<style src="./PageNotFound.component.css" scoped lang="css"></style>

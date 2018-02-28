@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/pages/Home'
-import ReleaseBuilds from '@/pages/ReleaseBuilds'
-import BetaBuilds from '@/pages/BetaBuilds'
+import PageHome from '@/pages/PageHome'
+import PageReleaseBuilds from '@/pages/PageReleaseBuilds'
+import PageBetaBuilds from '@/pages/PageBetaBuilds'
 import PageNotFound from '@/pages/PageNotFound'
 
 Vue.use(Router)
@@ -13,17 +13,17 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: PageHome
     },
     {
       path: '/releaseBuilds',
       name: 'Release Builds',
-      component: ReleaseBuilds
+      component: PageReleaseBuilds
     },
     {
       path: '/betaBuilds',
       name: 'Beta Builds',
-      component: BetaBuilds
+      component: PageBetaBuilds
     },
     {
       path: '*',
