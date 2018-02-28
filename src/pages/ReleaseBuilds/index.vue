@@ -1,4 +1,3 @@
-<template src="./ReleaseBuilds.component.html"></template>
-<script src="./ReleaseBuilds.component.js"></script>
-<style src="./ReleaseBuilds.component.css" scoped lang="css"></style>
-
+<template src="./ReleaseBuilds.page.html"></template>
+<script src="./ReleaseBuilds.page.js"></script>
+<style src="./ReleaseBuilds.page.css" scoped lang="css"></style>

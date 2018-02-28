@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/pages/Home'
 import ReleaseBuilds from '@/pages/ReleaseBuilds'
 import BetaBuilds from '@/pages/BetaBuilds'
+import PageNotFound from '@/pages/PageNotFound'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/betaBuilds',
       name: 'Beta Builds',
       component: BetaBuilds
+    },
+    {
+      path: '*',
+      name: 'Page Not Found',
+      component: PageNotFound
     },
   ]
 })
