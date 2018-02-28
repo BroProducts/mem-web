@@ -1,5 +1,7 @@
 # mem-web
 
+[![Build Status](https://travis-ci.org/BroProducts/mem-web.svg?branch=master)](https://travis-ci.org/BroProducts/mem-web)
+
 > A Vue.js project
 
 ## Build Setup
