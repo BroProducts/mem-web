@@ -10,6 +10,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "dialog-polyfill": "^0.4.9",
+    "firebase": "^4.10.1",
+    "firebaseui": "^2.6.2",
     "vue": "^2.5.2",
     "vue-material": "^1.0.0-beta-8",
     "vue-router": "^3.0.1",
